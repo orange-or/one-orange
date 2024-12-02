@@ -8,7 +8,7 @@ html {
     font-size: 10px;
     width: 100vw;
     height: 100vh;
-    background-image: url(/one-orange/img/logon-background.jpg);
+    background-image: url(../img/logon-background.jpg);
     /* background: linear-gradient(90deg,#03a9f4,#f441a5,#9fffef,#03a9f4) no-repeat; */
     /* background-size: 500%; */
     /* animation: bgAnimation 10s linear infinite; */
