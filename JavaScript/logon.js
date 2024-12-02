@@ -5,10 +5,10 @@ function togglePasswordVisibility() {
     // 切换密码输入框的type属性
     if (passwordInput.type === 'password' && toggleimg.src.includes('hide')) {
     passwordInput.type = 'text';
-    toggleimg.src = "../one-orange/img/show.png";
+    toggleimg.src = "/one-orange/img/show.png";
     } else {
     passwordInput.type = 'password';
-    toggleimg.src = "../one-orange/img/hide.png";
+    toggleimg.src = "/one-orange/img/hide.png";
     }
 }
 
@@ -18,7 +18,7 @@ var users = [
     { username: '罗洁', password: 'luojie', redirectURL: 'aixin2.html' },
     { username: 'buzhidao', password: 'buzhidao', redirectURL: 'aixin2.html' },
     { username: '何', password: 'he', redirectURL: 'lianxi.html' },
-    { username: '宝宝', password: '20241011', redirectURL: '/orange-or/anniversaries of important events/纪念日.html' },
+    { username: '宝宝', password: '20241011', redirectURL: '/one-orange/anniversaries of important events/纪念日.html' },
     // 添加更多账号密码
   ];
   
