@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://gitee.com/hexiao-bo/xiaohe/raw/master/CSS/logon.css">
+    <script src="https://gitee.com/hexiao-bo/xiaohe/raw/master/JavaScript/logon.js"></script>
+    <script src="https://gitee.com/hexiao-bo/xiaohe/raw/master/prohibit F12 and Right click.js"></script>
+    <title>xiaohe</title>
+</head>
+
+<body>
+    <div class="box">
+        <div class="title">
+            <h4>logon</h4>
+        </div>
+        <div class="shuru">
+        <div class="form-control">
+            <input type="value" name="username" required="" id="username">
+            <label>
+                <span style="transition-delay:0ms">U</span>
+                <span style="transition-delay:50ms">s</span>
+                <span style="transition-delay:100ms">e</span>
+                <span style="transition-delay:150ms">r</span>
+                <span style="transition-delay:200ms">n</span>
+                <span style="transition-delay:250ms">a</span>
+                <span style="transition-delay:300ms">m</span>
+                <span style="transition-delay:350ms">e</span>
+            </label>
+        </div>
+        <div class="form-control">
+            <input type="password" name="password" required="" id="password">
+            <label>
+                <span style="transition-delay:0ms">p</span>
+                <span style="transition-delay:50ms">a</span>
+                <span style="transition-delay:100ms">s</span>
+                <span style="transition-delay:150ms">s</span>
+                <span style="transition-delay:200ms">w</span>
+                <span style="transition-delay:250ms">o</span>
+                <span style="transition-delay:300ms">r</span>
+                <span style="transition-delay:350ms">d</span>
+            </label>
+        </div>
+        <div id="aixin" onclick="togglePasswordVisibility()"><img src="https://gitee.com/hexiao-bo/xiaohe/raw/master/img/hide.png" alt="" id="toggleimg"></div>
+    </div>
+    <div class="logon">
+        <button class="btn" type="button" name="logon" onclick="checkLogin()">
+            <strong>登录</strong>
+            <div id="container-stars">
+              <div id="stars"></div>
+            </div>
+            <div id="glow">
+              <div class="circle"></div>
+              <div class="circle"></div>
+            </div>
+          </button>
+    </div>
+
+    <div class="wj">
+        <a href="#" onclick="on()">注册账号</a>
+        <a href="#" onclick="on()">忘记密码</a>
+    </div>
+<!-- 弹窗 -->
+    <div id="tangchuang">
+        <div class="tangchuang">
+            <div class="newtons-cradle">
+                <div class="newtons-cradle__dot"></div>
+                <div class="newtons-cradle__dot"></div>
+                <div class="newtons-cradle__dot"></div>
+                <div class="newtons-cradle__dot"></div>
+                </div>
+            <div class="text">
+                <p id="tangchuangtext">可能是账号或者密码错了吧~</p>
+            </div>
+            <div id="close" onclick="guanbi()">
+                <p>x</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
