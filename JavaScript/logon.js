@@ -5,10 +5,10 @@ function togglePasswordVisibility() {
     // 切换密码输入框的type属性
     if (passwordInput.type === 'password' && toggleimg.src.includes('hide')) {
     passwordInput.type = 'text';
-    toggleimg.src = "https://gitee.com/hexiao-bo/xiaohe/raw/master/img/show.png";
+    toggleimg.src = "/one-orange//img/show.png";
     } else {
     passwordInput.type = 'password';
-    toggleimg.src = "https://gitee.com/hexiao-bo/xiaohe/raw/master/img/hide.png";
+    toggleimg.src = "/one-orange//img/hide.png";
     }
 }
 
