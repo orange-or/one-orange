@@ -18,6 +18,7 @@ var users = [
     { username: '罗洁', password: 'luojie', redirectURL: 'aixin2.html' },
     { username: 'buzhidao', password: 'buzhidao', redirectURL: 'aixin2.html' },
     { username: '何', password: 'he', redirectURL: 'lianxi.html' },
+    { username: '宝宝', password: '20241011', redirectURL: '.。/anniversaries of important events/纪念日.html' },
     // 添加更多账号密码
   ];
   
