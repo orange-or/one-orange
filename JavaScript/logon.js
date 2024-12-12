@@ -14,8 +14,6 @@ function togglePasswordVisibility() {
 
 // 点击验证账号密码
 var users = [
-    { username: '小胡', password: 'xiaohu', redirectURL: 'aixin.html' },
-    { username: '罗洁', password: 'luojie', redirectURL: 'aixin2.html' },
     { username: 'buzhidao', password: 'buzhidao', redirectURL: 'aixin2.html' },
     { username: '何', password: 'he', redirectURL: 'lianxi.html' },
     { username: '宝宝', password: '20241011', redirectURL: '/one-orange/anniversaries of important events/纪念日.html' },
