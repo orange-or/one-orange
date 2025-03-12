@@ -5,10 +5,10 @@ function togglePasswordVisibility() {
     // 切换密码输入框的type属性
     if (passwordInput.type === 'password' && toggleimg.src.includes('hide')) {
     passwordInput.type = 'text';
-    toggleimg.src = "/one-orange/img/hide.png";
+    toggleimg.src = "/one-orange/img/show.png";
     } else {
     passwordInput.type = 'password';
-    toggleimg.src = "/one-orange/img/show.png";
+    toggleimg.src = "/one-orange/img/hide.png";
     }
 }
 
